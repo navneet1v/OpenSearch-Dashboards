@@ -64,7 +64,7 @@ export const getGeoHashBucketAgg = () =>
       {
         name: 'field',
         type: 'field',
-        filterFieldTypes: OSD_FIELD_TYPES.GEO_POINT,
+        filterFieldTypes: [OSD_FIELD_TYPES.GEO_POINT, OSD_FIELD_TYPES.GEO_SHAPE],
       },
       {
         name: 'autoPrecision',
